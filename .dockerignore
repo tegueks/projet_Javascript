@@ -1,0 +1,19 @@
+# Ignore le dossier Git
+.git
+.gitignore
+
+# Ignore les fichiers de configuration spécifiques à ton éditeur
+.vscode/
+
+# Ignore les fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+# Ignore les fichiers de build locaux
+node_modules/
+dist/
+build/
+
+#Ignore les workflows GitHub Actions (pas nécessaires dans l'image)
+.github/

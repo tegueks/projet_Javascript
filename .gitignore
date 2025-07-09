@@ -1,0 +1,49 @@
+# Node.js (si jamais tu utilises npm ou yarn pour gérer du front)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# Docker
+*.env
+*.env.*
+docker-compose.override.yml
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build / Dist folders (si tu fais un build front)
+dist/
+build/
+
+# OS & systèmes
+.DS_Store
+Thumbs.db
+
+# Git
+*.pem
+*.key
+*.crt
+*.pub
+*.log
+*.tmp
+*.bak
+
+# Secrets (si tu en as)
+.env.local
+.env.production
+.env.development
+
+# GitHub Actions
+# (optionnel : tu peux le garder si tu veux versionner tes workflows)
+# .github/
+
+# Autres fichiers inutiles
+*.tar
+*.tar.gz
+*.zip
