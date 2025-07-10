@@ -1,4 +1,4 @@
-FROM nginx: alpine
+FROM nginx:alpine
 
 #On supprime le contenue par defaut de nginx 
 RUN rm -rf /usr/share/nginx/html/*
